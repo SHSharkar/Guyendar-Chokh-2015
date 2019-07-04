@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+    background: #f1f1f1 url("../images/background.jpg");
+    background-position: 50% top;
+      -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+#container {
+    width: 600px;
+    margin: 0 auto;
+    background: transparent;
+    border: transparent;
+}
+
+#footer {
+    background: #f1f1f1;
+    padding: 10px;
+    line-height: 20px;
+}
