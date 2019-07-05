@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
 
 body {
     background: #f1f1f1 url("../images/background.jpg");
@@ -9,20 +9,54 @@ body {
     -moz-box-sizing: border-box;
     /* Firefox, other Gecko */
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: #333333;
 }
 
+@media(max-width:768px){
+.btn{
+    margin-bottom: 15px;
+}
+
+    #container {
+        margin: 0 auto !important;
+        background: transparent;
+        border: transparent;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .cover-image {
+        max-height: 400px;
+    }
+    
+    #footer {
+        background: #f3f4f6;
+        padding: 10px;
+        line-height: 1.2;
+        
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+@media(min-width:768px){
 #container {
     width: 600px;
-    margin: 0 auto;
+    margin: 0 auto !important;
     background: transparent;
     border: transparent;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cover-image {
+    max-height: 500px;
 }
 
 #footer {
-    background: #f1f1f1;
+    background: #f3f4f6;
     padding: 10px;
-    line-height: 20px;
+    line-height: 1.2;
+    opacity: .85;
+    font-family: 'Poppins', sans-serif;
+}
 }
